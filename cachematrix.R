@@ -1,9 +1,6 @@
 
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
+##This function is a model method for the matrix 
+##it has required getters and setters to get and set the value of the matrix as well as its inverse
 makeCacheMatrix <- function(x = matrix()) {
   
   #assign inverse as NULL
@@ -34,8 +31,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
+##This methods caluclates the inverse of the matrix if it is not there initially
+##also it invokes the get and set methods of the matrix and its onverse methods
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   inverse_matrix <- x$getinverse()
